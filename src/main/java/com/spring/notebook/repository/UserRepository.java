@@ -8,6 +8,6 @@ import com.spring.notebook.entity.Users;
 
 public interface UserRepository extends JpaRepository<Users, Long> {
 
-	// email로 사용자 정보를 가져옴
+	// email로 사용자 정보를 가져옴!!!!
 	Optional<Users> findByEmail(String email);
 }
