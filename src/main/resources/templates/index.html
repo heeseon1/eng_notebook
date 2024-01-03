@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,6 +35,8 @@
 </script>
 
 <button type="button" onclick="location.href='/logout'">로그아웃</button>
+
+<a th:href="@{engNotebook/userId}">마이페이지ㅠㅠ</a>
 
 </body>
 </html>

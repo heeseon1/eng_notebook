@@ -43,4 +43,6 @@ public class Notebooks {
 	@OneToMany(mappedBy = "notebooks")
     private List<Letters> letters = new ArrayList<Letters>();
 
+	
+
 }
